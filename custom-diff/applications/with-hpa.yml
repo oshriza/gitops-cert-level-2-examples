@@ -27,6 +27,7 @@ spec:
     kind: Deployment
     jsonPointers:
     - /spec/replicas
+  - group:
     kind: Secret
     jsonPointers:
     - /data/my-password
